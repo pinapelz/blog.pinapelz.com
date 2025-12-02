@@ -59,7 +59,7 @@ Authorization: DISCORD_AUTH_TOKEN
 {"content":"test"}
 ```
 
-Yep, thats all it takes to send a message.
+Yep, that's all it takes to send a message.
 
 ## Bridging the Gap to Python
 Its great that we can send messages, but how do we receive them in Python such that we can trigger a POST request to reply. Turns out this actually gets a bit tricky. To get around this, I'll be using a custom Discord client known as [BetterDiscord](https://betterdiscord.app/) to do this.
@@ -108,7 +108,7 @@ module.exports = meta => {
   };
   };
 ```
-I've opted to use a websocket server since it was the most striaghtforward given that Node modules are not possible in BetterDiscord. All we're doing here is listening for any messages we get and then sending them through to the websocket server. Lucky for us, the JSON version of these messages contain both the user ID and the channel ID already which is all the identification information we will need.
+I've opted to use a websocket server since it was the most straightforward given that Node modules are not possible in BetterDiscord. All we're doing here is listening for any messages we get and then sending them through to the websocket server. Lucky for us, the JSON version of these messages contain both the user ID and the channel ID already which is all the identification information we will need.
 
 ## Integrating an LLM
 Now that we have thing up and running on the Discord end, let's connect to a LLM.
@@ -217,7 +217,7 @@ class AutoReply:
 
 ```
 ### Config
-I'm using a JSON file to store configuration data pretaining to authentication and the websocket server.
+I'm using a JSON file to store configuration data pertaining to authentication and the websocket server.
 ```json
 {
     "OPENAI_API_KEY": "",
@@ -238,7 +238,7 @@ REPLY_TO = [
 ]
 ```
 
-The BetterDiscord plugin broadcasts every message frome every DM and server channel to the websocket server. Here on the Python end we can specify which messages we want to reply to by adding additional entries to the `REPLY_TO` list.
+The BetterDiscord plugin broadcasts every message from every DM and server channel to the websocket server. Here on the Python end we can specify which messages we want to reply to by adding additional entries to the `REPLY_TO` list.
 
 We add the USER_ID to identify who we want to reply to and along with which channel we want to reply to them in. Generally this will be the same channel that the message was sent in, but you can change it to whatever you want.
 

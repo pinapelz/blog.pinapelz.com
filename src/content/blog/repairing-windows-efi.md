@@ -1,15 +1,15 @@
 ---
 title: 'Fix: Rebuild Windows EFI'
-description: 'Rebuilding the Windows EFI partition, dual-boot with systemd-boot on a seperate drive'
+description: 'Rebuilding the Windows EFI partition, dual-boot with systemd-boot on a separate drive'
 pubDate: 'May 5 2024'
 ---
 
-If I had a dollar for every time that I somehow overwrote or deleted the Windows EFI boot partiton while toying with something on Linux I'd have $3 (which isn't a lot but having it happen 3 times already is pretty annoying). If you ask some enthusiasts, this is secretly a blessing in disguise since you're technically one step closer to escaping the grasp of Microsoft. However like many others who choose to dual-boot, I prefer to keep my Windows installation around in case I need it for some specific use case.
+If I had a dollar for every time that I somehow overwrote or deleted the Windows EFI boot partition while toying with something on Linux I'd have $3 (which isn't a lot but having it happen 3 times already is pretty annoying). If you ask some enthusiasts, this is secretly a blessing in disguise since you're technically one step closer to escaping the grasp of Microsoft. However like many others who choose to dual-boot, I prefer to keep my Windows installation around in case I need it for some specific use case.
 
 I'm not the most well-versed when it comes to the whole Windows IT stuff, in fact I think most of my knowledge about how to even use the Windows shell has completely gone out the Window. This post serves as a quick guide for how to rebuild the EFI partition that contains the bootloader, as well as how to re-add the Windows to the systemd-boot menu.
 
 # Diagnosis
-Depending on the order in which you installed Windows and Linux, the location of where your EFI partition actually is may differ. On my setup, I have Windows on my first drive and Linux on my second. My EFI partition with my current bootloader lives on my second drive which persumably also included my Windows 11 bootloader.
+Depending on the order in which you installed Windows and Linux, the location of where your EFI partition actually is may differ. On my setup, I have Windows on my first drive and Linux on my second. My EFI partition with my current bootloader lives on my second drive which presumably also included my Windows 11 bootloader.
 
 So when I went and installed a different distro, this removed all my files associated about my previous install (since I basically reformatted everything), and among that of course was the Windows bootloader meaning I effectively had no way to boot back into Windows
 

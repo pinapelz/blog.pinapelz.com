@@ -9,11 +9,11 @@ If you've ever watched the VOD of a YouTube livestream (especially within the VT
 
 While clips do solve this feature, the process for creating a clip is rather cluttered and slow as it requires viewers to stop watching the content to segment a portion of the stream. Not to mention the deletion of the VOD or the streamer turning this feature off would make the creation and preservation of clips difficult.
 
-Timestamping is one solution in which involves viewers create a collection of "stamps"  in the comment section of a video which refer to key moments such that viewers can find identifiying moments later.
+Timestamping is one solution in which involves viewers create a collection of "stamps"  in the comment section of a video which refer to key moments such that viewers can find identifying moments later.
 
-Despite how prevelant the practice is, information regarding how timestampers operate is actually sparse (at least among the VTuber community). 
+Despite how prevalent the practice is, information regarding how timestampers operate is actually sparse (at least among the VTuber community). 
 
-No, wizardry isn't how timestamps for a 3 hour stream seemingly magically appear 1 minute after stream. I hope to at least document some information I know pretaining to how liv timestamps are generated (mainly within the VTuber community).
+No, wizardry isn't how timestamps for a 3 hour stream seemingly magically appear 1 minute after stream. I hope to at least document some information I know pertaining to how liv timestamps are generated (mainly within the VTuber community).
 
 ## Live Timestamping
 I should first specify that this is "live timestamping". While you could wait until the stream has concluded and then manually write down key moments...
@@ -73,7 +73,7 @@ However, I still find this solution in many ways clunky.
 ## An Alternative Using Javascript
 One day I stumbled upon a [Reddit post](https://www.reddit.com/r/VirtualYoutubers/comments/ifzqe7/i_made_a_live_timestamp_tool/) about a Javascript tool that can be used to live timestamp streams.
 
-Whats interesting here is that calculating the timestamp of a video isn't actually limited to when the stream is finished, you can retrieve it at any point in time.
+What's interesting here is that calculating the timestamp of a video isn't actually limited to when the stream is finished, you can retrieve it at any point in time.
 
 ```javascript
 var time = Math.max(0, Math.floor(document.querySelector("video").currentTime));

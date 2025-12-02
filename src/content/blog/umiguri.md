@@ -86,7 +86,7 @@ Whatever your input method is, you'll need to get it mapped to keys on the keybo
 ### Using a TASOLLER/Yubideck or other CHUNITHM specific controller
 For CHUNITHM specific controllers, such as TASOLLERs, the best way to get them working with UMIGURI is to use a program called [slidershim](https://github.com/4yn/slidershim)
 
-This will basically simplify all the annoying IO stuff that you'd neeed to do otherwise, it'll even handle making use of your LED lights on the controller itself.
+This will basically simplify all the annoying IO stuff that you'd need to do otherwise, it'll even handle making use of your LED lights on the controller itself.
 
 The downside is these controllers typically cost a pretty penny. [Usually 300 USD or more](https://www.dj-dao.com/en/tasoller). There's always the option to build your own, but that's a whole other can of worms.
 
@@ -178,7 +178,7 @@ data/
             <file>.mp3
             <file>.png
 ``` 
-The name of the outermost folder in `music` will be the genre name that appears in the game (basically a category). The other names don't really matter as long as your audio and jacket files are named correctly according to what it written in teh chart file. UMIGURI will automatically parse through all your charts during the game's startup.
+The name of the outermost folder in `music` will be the genre name that appears in the game (basically a category). The other names don't really matter as long as your audio and jacket files are named correctly according to what it written in the chart file. UMIGURI will automatically parse through all your charts during the game's startup.
 
 ## Charting
 The tool for editing charts is called Margrete. You can grab it from the [same Download link as UMIGURI](https://umgr.inonote.jp/download). All the text however is in Japanese, so you'll need to rely on machine translations to get around it.
@@ -197,7 +197,7 @@ Here are some additional customizations you can make. If you want more details, 
     - Create a `.ucsl` file (UMIGURI Character Skill Language) and place it in `data/skills`
     - [Specifications](https://gist.github.com/inonote/d4f9a1ee84da849b5b8962db13d42220)
 - [Titles](https://umgr.inonote.jp/help/#/add-titles)
-    - Can be added in `data/titles/user.txt` or create a new file in the same folder for seperate title files
+    - Can be added in `data/titles/user.txt` or create a new file in the same folder for separate title files
     - One title per line in the following format `TitleID<TAB>TitleColor(0-5)<TAB>TitleText`
 - [Nameplates](https://umgr.inonote.jp/help/#/add-nameplates)
     - Involves creating a 576x228 image

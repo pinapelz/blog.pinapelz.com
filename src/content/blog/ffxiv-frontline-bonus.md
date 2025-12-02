@@ -23,7 +23,7 @@ The server may have this information stored somewhere, but its weird that this i
 I can't think of many good reasons for why the UI doesn't count these Extra Levels as apart of normal Series Levels either, since its practically impossible for any player to reach an unsigned integer overflow during the time of 1 Series Malmstone season.
 
 # Frontline Losing Streak Bonus
-I'd like to document exactly how the Frontline PVP losing bonus works in Final Fantasy XIV. There's a vast amount of uncertainity online about how
+I'd like to document exactly how the Frontline PVP losing bonus works in Final Fantasy XIV. There's a vast amount of uncertainty online about how
 rewards are handed out in Frontline. I believe that a vast majority of players don't even know such a bonus exists, the remaining people who know about the bonus aren't exactly able to explain it or chalk it up to seemingly random things (such as how long the PVP match takes).
 
 First, I'll share with you what is officially posted on the [Lodestone](https://na.finalfantasyxiv.com/lodestone/playguide/contentsguide/frontline/):
@@ -44,7 +44,7 @@ var consecutiveThirds = 0
 
 For the buff to begin, `consecutiveThirds` must equal `2`.
 
-For everytime you place 3rd in a Frontline match, this counter will increase by `1`. Placing 2nd **DOES NOT** reset the counter, but placing 3rd **will reset the counter**.
+For every time you place 3rd in a Frontline match, this counter will increase by `1`. Placing 2nd **DOES NOT** reset the counter, but placing 3rd **will reset the counter**.
 
 This means that when `consecutiveThirds = 1`, you can place 2nd n-times and not have this counter reset.
 

@@ -127,7 +127,7 @@ except Exception as e:
         send_heartbeat("Offline")
     else:
         print("An error occurred. Sending offline heartbeat...")
-        send_heartbeat("Offline - An error occured " + str(e))
+        send_heartbeat("Offline - An error occurred " + str(e))
 ```
 
 

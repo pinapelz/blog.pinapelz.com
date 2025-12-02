@@ -20,7 +20,7 @@ Even though the spirit of Yunohost is self-hosting the hardware, I've opted to d
 I think a lot of people would be looking into a setup similar to this. Even if you were to deploy on a Raspberry Pi (which slashes the entry cost and power consumption), you'd still be looking into having the require technical knowledge to set up/maintain the system and also deal with ISP sheanigans. Plus not having to deal with hardware means you can scale up/down as needed.
 
 ## YNH Packages
-Having a look at the [extensive list of available packages](https://github.com/YunoHost-Apps), I was actually pleasently surprised with how simple they are. For most of Yunohost's applications, its just a matter of running a bash script that installs the dependencies and changes the necessary config files to get the application up and running.
+Having a look at the [extensive list of available packages](https://github.com/YunoHost-Apps), I was actually pleasantly surprised with how simple they are. For most of Yunohost's applications, its just a matter of running a bash script that installs the dependencies and changes the necessary config files to get the application up and running.
 
 In fact, after adding the necessary DNS records, it was pretty much just one click through the web interface to install whatever applicated I wanted.
 ![Example install screen](https://files.catbox.moe/jvc7vr.png)
@@ -57,9 +57,9 @@ Obviously software evolves over time, and one of the major concerns I had (and s
 
 This is currently primarily a community driven effort, with each package given its own Github repo. There's no guarantee that a package will be updated, and even if it is, there's no guarantee that it will be updated in a timely manner. Of course, you can always do it yourself, but is that really something that the average end-user would be able to do?
 
-When a package gets abandoned, then what do we do? Yunohost offers no way for the end-user to change the repo attached to an installed application, so if the package is abandoned then the end-user will be stuck there indefinetly until manual intervention.
+When a package gets abandoned, then what do we do? Yunohost offers no way for the end-user to change the repo attached to an installed application, so if the package is abandoned then the end-user will be stuck there indefinitely until manual intervention.
 
-I've already actually had an issue with this. The Misskey package is still running version 12 while the latest verison is 13. This means that I'm missing out on some of the latest features. Fortunatly I don't think that the Misskey package is completely abandoned as it still ranked quite high on the integration scale Yunohost has for its packages, but regardless it's still a bit of a pain.
+I've already actually had an issue with this. The Misskey package is still running version 12 while the latest version is 13. This means that I'm missing out on some of the latest features. Fortunately I don't think that the Misskey package is completely abandoned as it still ranked quite high on the integration scale Yunohost has for its packages, but regardless it's still a bit of a pain.
 
 ~~(if you'd like to check it out its over at [https://mk.moekyun.me](https:/mk.moekyun.me)~~
 

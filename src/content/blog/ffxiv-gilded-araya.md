@@ -10,7 +10,7 @@ Every once in a while I think back to Final Fantasy XIV's producer's [statement 
 While there's usually always some controversy surrounding players using damage meters and triggers, interestingly this post was the one time where Yoshi-P (the producer of FFXIV) addressed the use of server emulation.
 
 <p align="center">
-<img src="https://files.catbox.moe/406tgu.png" alt="Server Emulation statemnt from Yoshi-P"/>
+<img src="https://files.catbox.moe/406tgu.png" alt="Server Emulation statement from Yoshi-P"/>
 <br>
  Yoshi-P's statement on server emulation from the <a href=https://na.finalfantasyxiv.com/lodestone/topics/detail/36c4d699763603fadd2e61482b0c5d56cb2e4547>Lodestone post</a>
 </p>
@@ -32,7 +32,7 @@ One good example of this dynamic is questing, when you go to accept a quest from
 
 ![Questing server to client diagram](https://files.catbox.moe/4wp77c.png)
 
-All the data pretaining to quest text, textures, and interactions are stored on the client side. The only thing the server needs to handle is recording the state of the quest (accepted, completed, what step you're on, etc) and telling the client what actions should occur based on that state.
+All the data pertaining to quest text, textures, and interactions are stored on the client side. The only thing the server needs to handle is recording the state of the quest (accepted, completed, what step you're on, etc) and telling the client what actions should occur based on that state.
 
 Let's tak a look at sidequest `SubSea007` (A Thousand Words) as an example.
 
@@ -226,7 +226,7 @@ If all you wanted to do was walk around the world, interact with NPCs, /gpose, d
 
 Ok, I'm pretty sure my PC with a i7-9700K and 32GB of RAM does not cost tens of millions of yen. I think running Sapphire is doing a little more than just "pulling the client software and displaying model data". You're able to walk around the world and maps as if you were playing the game normally. You can interact with NPCs, dye your gear, etc.
 
-While I definetly don't think my PC can handle 10 000+ players on at the same time, I'm pretty sure it can handle the 8 players required for a raid. Its not that the hardware can't handle it, its rather that the software isn't there yet.
+While I definitely don't think my PC can handle 10 000+ players on at the same time, I'm pretty sure it can handle the 8 players required for a raid. Its not that the hardware can't handle it, its rather that the software isn't there yet.
 
 <p align="center"><img width=700 src="https://files.catbox.moe/ti2bog.png" /></p>
 

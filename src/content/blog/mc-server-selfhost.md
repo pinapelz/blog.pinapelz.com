@@ -68,7 +68,7 @@ The solution is to route the game through a tunnel:
 A tunneling service can be running 24/7 making the connection available around the clock. There is still the bottleneck between the server and the tunnel, but as
 long as you pick a good tunneling service this shouldn't be much of an issue in terms of latency or bandwidth.
 
-For this I highly reccomend setting up [playit.gg](https://playit.gg/) which provides a very generous free tier for this sort of game hosting. Setup is also fairly
+For this I highly recommend setting up [playit.gg](https://playit.gg/) which provides a very generous free tier for this sort of game hosting. Setup is also fairly
 simple since its basically just 1 additional binary to run with your server.
 
 Players connect to this tunnel which then forwards the traffic onto the `localhost:25565` on the server machine itself, meaning no need to access the router to port forward

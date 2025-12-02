@@ -27,7 +27,7 @@ A majority of applications these days are also just all running a glorified web 
 # Gaming
 Gaming was also one of my major concerns when switching over. Maybe 2-3 years ago I would've been much more unwilling to switch, but these days gaming on Linux has taken off like a rocket ship thanks largely in part to Valve's adoption of Arch on the Steam Deck.
 
-As of writing this, 76% of the top 1000 games on Steam have achieved Platnium or Gold status in terms of compatability according to [ProtonDB](https://www.protondb.com/). Pretty much all the games I want to play on Steam are working very well if not better than if I had run them on Windows.
+As of writing this, 76% of the top 1000 games on Steam have achieved Platnium or Gold status in terms of compatibility according to [ProtonDB](https://www.protondb.com/). Pretty much all the games I want to play on Steam are working very well if not better than if I had run them on Windows.
 
 <img src="https://files.catbox.moe/6zqxhz.png">
 

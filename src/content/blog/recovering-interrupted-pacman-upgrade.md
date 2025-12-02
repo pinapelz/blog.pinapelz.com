@@ -8,7 +8,7 @@ For those unaware `pacman` is the package manager used on Arch/Arch based Linux 
 
 Let's say in theory you run `pacman -Syu` to trigger a full-system upgrade. We get through the downloading phase fine as well as any necessary compilations, `pacman` removes the packages that are being upgraded from the system but our system crashes before everything is able to install.
 
-Since our system crashed, `pacman` is unable to issue a rollback to restore the system to the previous state. When we power on the computer again we find a plethora of errors and perhaps we even find ourselve unable to boot into the desktop environment. This unfortunatly means you likely find yourself in a mess of corrupted/broken packages.
+Since our system crashed, `pacman` is unable to issue a rollback to restore the system to the previous state. When we power on the computer again we find a plethora of errors and perhaps we even find ourselves unable to boot into the desktop environment. This unfortunately means you likely find yourself in a mess of corrupted/broken packages.
 
 Not all hope is lost, before you go backing up files and doing a clean re-install, its very likely you're able to recover your system through `chroot`.
 
@@ -22,7 +22,7 @@ Lucky for us, since Linux distros can generally run off of a Live-USB environmen
 # Steps
 1. Boot into Live USB environment and mount drives
 
-Once you've booted into the Live-USB, I reccomend getting Ethernet hooked up. Sometimes there can be corrupted packages left in the `.cache`, so those need to be redownloaded. You can use WiFi, but sometimes there are issues with connecting via Live USB.
+Once you've booted into the Live-USB, I recommend getting Ethernet hooked up. Sometimes there can be corrupted packages left in the `.cache`, so those need to be redownloaded. You can use WiFi, but sometimes there are issues with connecting via Live USB.
 
 Identify the drive/partition with your OS installed (where the root directory is) and mount it
 ```bash

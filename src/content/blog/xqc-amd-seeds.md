@@ -6,7 +6,7 @@ pubDate: 'May 21 2025'
 
 For many years now the "juicer" (xQc) and the "homeless man" (Forsen) have been at arms at each other when it comes to who can achieve the faster time in random seed Minecraft speed running. As of writing this, the homeless man holds the record with an in-game time of 15min 28s.
 
-The juicer has just recently gotten back into the runs, however in several of his recent streams he constantly complains of the game generating systematically bad seeds for speed running for him to a point where its become a "statistical anomaly". xQc has blamed this on his relatively-new PC's `AMD Ryzen 9 9950X3D` CPU having a bias and generating difficult to run seeds (such as constantly giving his Basalt biomes on Nether entires, buried treasure with a singular iron-ingot, and difficult to navigate structures)
+The juicer has just recently gotten back into the runs, however in several of his recent streams he constantly complains of the game generating systematically bad seeds for speed running for him to a point where its become a "statistical anomaly". xQc has blamed this on his relatively-new PC's `AMD Ryzen 9 9950X3D` CPU having a bias and generating difficult to run seeds (such as constantly giving his Basalt biomes on Nether entries, buried treasure with a singular iron-ingot, and difficult to navigate structures)
 
 <iframe src="https://clips.twitch.tv/embed?clip=SolidRelentlessClipzCopyThis-HQTjvLr29cQRCK5A&parent=blog.pinapelz.com" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
 
@@ -66,7 +66,7 @@ Luckily for us, this value has already been labelled. `func_242751_a` calls the 
 
 # How does `Random` work
 
-`java.util.Random` is apart of the Java Standard Library, as such there are very tight and strict specifications for how the logic works. This means that across nearly all versions of compliant Java Virtual Machines, we can expect the logic to work the same way to avoid breaking compatability.
+`java.util.Random` is apart of the Java Standard Library, as such there are very tight and strict specifications for how the logic works. This means that across nearly all versions of compliant Java Virtual Machines, we can expect the logic to work the same way to avoid breaking compatibility.
 
 So looking through the source code for OpenJDK we see the following logic is used for the `nextLong` function.
 ```java

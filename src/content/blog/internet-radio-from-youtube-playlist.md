@@ -34,7 +34,7 @@ Your player downloads and plays the file. Once it reaches the end playback stops
 - Instead I have some software (such as Icecast) continuously writing MP3 frames (think of it as the next segment of the audio) to that endpoint
 - Your player decodes these frames and plays them back, while going back to fetch the next frame.
 
-By not specifing a `Content-Length: XXXXX` header, it makes your player continuously ask for the next part since it doesn't really know when the file will end. This gives the illusion of playing a normal MP3 file while allowing it to actually be an endless stream.
+By not specifying a `Content-Length: XXXXX` header, it makes your player continuously ask for the next part since it doesn't really know when the file will end. This gives the illusion of playing a normal MP3 file while allowing it to actually be an endless stream.
 
 ```
 Server: Here is audio.
@@ -93,6 +93,8 @@ done
 In case you haven't realized this is incredibly powerful. I don't need to pre-download all the media I want to stream, everyone can access the audio stream on the same URL, and also of course meets the requirement for shared playback. This also means that we can use the resulting audio stream on existing Discord/Teamspeak music bots to build one of those 24/7 radios.
 
 I've expanded on this idea and wrote a Flask app that expands on this same idea here. At the core, it takes a YouTube playlist and converts it into a list of urls to be played on loop. I've also built a few QOL features such as stopping stream when no one is listening (to save bandwidth), injecting `icy` metadata tags into the audio so that your favorite player can show what song is playing, and a webui for browser-based playback and visualization.
+
+You can check it out here: https://github.com/pinapelz/yt-playlist-radio
 
 ## Caveats
 Many audio players pre-buffer audio from the server so that you can have a smoother playback. This means technically speaking your playback will be more and more out of sync than new users joining. This can be solved with enforcing not pre-buffering on the backend, but it may come at the cost of smooth playback.

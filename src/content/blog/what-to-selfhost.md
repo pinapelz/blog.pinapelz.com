@@ -123,16 +123,47 @@ The UI isn't the most intuitive thing but once you get going on it, it does the 
 
 ---
 # Dropped
-The only thing I've ever rolled back from after self hosting for some time was **Misskey/Sharkey**. The bandwidth and storage required to host something on the Fediverse is insane, and its not something I'd personally consider doing again. Joining a larger server has also been better for discoverability and meeting new people. For a single person instance, I don't see too much value considering how heavy it is to run.
 
----
-# New Stuff
-Below are some new things I've been recently testing out.
+## Misskey/Sharkey
+- The bandwidth and storage required to host something on the Fediverse is insane, and its not something I'd personally consider doing again. 
+- Joining a larger server has also been better for discoverability and meeting new people.
+- For a single person instance, I don't see too much value considering how heavy it is to run.
 
 ## Forgejo
-Not too much to say about this. I mainly use this to host personal stuff now since GitHub outages have become more and more frequent. Its clear that they can't handle the traffic, which is totally fair considering that they are a free service. Most of the repos on my personal Forgejo are just setup as pull mirrors from GitHub.
+- Turns out its surprisingly memory hungry when you set up a bunch of pull mirrors
+- It seems a bit overkill for my use case which is basically a personal git server (minimal collaborations)
+- Otherwise its actually a pretty nice piece of software, would recommend
 
-So far its been working well. I've been testing it by running it via [PikaPods](https://www.pikapods.com/), although not sure if I will keep it there.
+---
+# Rapid Fire
+A few things that are smaller, don't have as much to say about them.
+
+## cgit
+- Not too much to say about this. I mainly use this to host personal stuff now since GitHub outages have become more and more frequent. 
+- Its clear that they can't handle the traffic, which is totally fair considering that they are a free service. 
+- Most of the repos on my personal Forgejo are just setup as pull mirrors from GitHub.
+- Slapped a nice CSS theme on there and its like I'm back on GitHub (https://git.moekyun.me)
+
+## [changedetection.io](https://github.com/dgtlmoon/changedetection.io)
+- Tool for detecting when a website changes
+- I use it for detecting when some software has a new GitHub Release or new commits
+- There's also other uses such as finding out when a game has an update
+- Downside is that the UI for it is quite garbage, although once you set it up you don't need to fiddle with it too much
+
+## [Uptime Kuma](https://github.com/louislam/uptime-kuma)
+- Nothing much to say, needed a monitoring tool to see the status of things I'm running and this fit the bill
+- It also has a bunch of integrations for relaying downtime to other services, like Matrix
+
+## [ntfy](https://ntfy.sh/)
+- I didn't understand this at first but it has actually ended up being quite useful
+- You can combine this with a ton of stuff to get some pretty sweet integrations
+  - ex. changedetection can push a notification when a site changes
+
+## [The Lounge](https://thelounge.chat/)
+- Turns out a lot of people are still on IRC, particularly in the FOSS space
+- One of the biggest annoyances I had was not being able to see message history
+- The solution is to run a bouncer, but I found the The Lounge is a more all-in-one solution
+- Keeps everything in sync across devices and can also support notifications through PWA
 
 ## [Koillection](https://github.com/benjaminjonard/koillection)
 I don't have too much to say about this one either since I only just set it up recently. But this is a super cool and customizable collection manager for basically anything. You do have to do a lot of work to set up scrapers for the metadata if you want the best experience, but I've just been using it as a glorified spreadsheet. Its really useful if you want to check if you already own something before buying (while outside or something).

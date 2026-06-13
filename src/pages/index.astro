@@ -9,6 +9,11 @@ import FormattedDate from "../components/FormattedDate.astro";
 const posts = (await getCollection("blog")).sort(
   (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
 );
+
+const microposts = (await getCollection("micro")).sort(
+  (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
+);
+
 ---
 
 <!DOCTYPE html>
@@ -50,6 +55,22 @@ const posts = (await getCollection("blog")).sort(
           }
         </ul>
       </section>
+      <h2>Recent MicroPosts</h2>
+      <section>
+        <ul>
+          {
+          microposts
+              .slice(-5)
+              .map((post) => (
+                <li>
+                  <FormattedDate date={post.data.pubDate} />
+                  <a href={`/micro/${post.slug}/`}>{post.data.title}</a>
+                </li>
+              ))
+              .reverse()
+          }
+        </ul>
+      </section>
       <h1>
         👋 Greetings, Adventurer
       </h1>
@@ -57,6 +78,9 @@ const posts = (await getCollection("blog")).sort(
         Welcome to my site/blog! This place will serve as a corner where I can
         archive my thoughts and processes on various topics or projects. It'll pretty much
         just be whatever I feel like writing about, posts will be very infrequent so don't expect much.
+      </p>
+      <p>
+          Blog posts are regular long form writing about some technical concept, MicroPosts are all over the place and are usually quite unstructured. The RSS feed combines both of these.
       </p>
       <p>Check out the main site as well: <a href="https://pinapelz.com">pinapelz.com</a></p>
       </p>

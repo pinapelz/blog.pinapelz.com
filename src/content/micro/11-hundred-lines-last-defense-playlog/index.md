@@ -4,7 +4,8 @@ description: 'Playlog #2'
 pubDate: Mar 17 2026
 ---
 After about a year of playing on and off, I've finally finished all 100 (and 1, counting the first one). In total it took roughly 105 hours or so.
-{{< figure src="playtime.png" alt="105 hours or more played" >}}
+
+<img src="/legacy/playtime.png" alt="105 hours or more played" />
 
 ## Core Mechanics
 - This is basically a visual novel, there's very little fun to be had if you are a "cutscene skipper". If you enjoyed Kodaka's other works like Danganronpa then you'll be right at home.

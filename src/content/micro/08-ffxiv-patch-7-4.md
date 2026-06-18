@@ -29,5 +29,3 @@ pubDate: Dec 19 2025
 # Misc
 - The new Frontline map is "dangerous". Overall the new capturing point system is far better than a non-interruptable interact like in Onsal Hakir. The snowman and aurora events are also good, and I think they come in right when they're needed too (to spice things up/allow for a turning point). 
 - The map design however is far too complex, all these bridges and everywhere and invisible walls. It does add a lot of chokepoints but also makes it difficult to navigate from point A -> B (but partially I guess this is done cause the map does feel smaller than Onsal).
-
-{{< hashtag "ffxiv" >}}

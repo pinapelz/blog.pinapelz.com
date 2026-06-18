@@ -32,7 +32,7 @@ The most common method I've seen circulating is to use the Discord bot Korotagge
 
 This is actually quite a good solution if you have a group of people who would like to timestamp together. The system itself allows for multiple people to simultaneously contribute to adding timestamps and also a simple export feature at the end.
 
-<figure style="text-align: center;">
+<img style="text-align: center;">
     <img src="https://files.pinapelz.com/Screenshot_20230912_220530.png" alt="Korotagger example usage">
     <figcaption>Example usage of Korotagger in Phase Connect Discord</figcaption>
 </figure>

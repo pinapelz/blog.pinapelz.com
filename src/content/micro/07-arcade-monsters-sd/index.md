@@ -12,8 +12,9 @@ Once you get there, you can either take the trolley or walk 20 minutes to the ar
 
 Plus the view is excellent.
 
-{{< figure src="view1.webp" alt="Ocean view from the Pacific Surfliner" width="700" >}}
-{{< figure src="view2.webp" alt="Ocean view from the Pacific Surfliner" width="700" >}}
+<img src="/legacy/view1.webp" alt="Ocean view from the Pacific Surfliner" width="700" />
+
+<img src="/legacy/view2.webp" alt="Ocean view from the Pacific Surfliner" width="700" />
 
 # Value
 So is this trip worth it and what is the cost?
@@ -30,7 +31,7 @@ But if you were to include transportation costs, assuming around $60 for a round
 
 However, with the variety of games in there (even rarer ones), I'd say this is still an excellent trip. I personally could easily stay 5+ hours in there (cause I'm a degenerate and they also sell food + drinks in there).
 
-{{< figure src="cab1.webp" alt="Arcade Cabinets" width="500" >}}
+<img src="/legacy/cab1.webp" alt="Arcade Cabinets" width="500" />
 
 # Quality
 Most of the retro stuff is very well maintained and in great working condition. Also many of the modern games are networked and have card saving features.
@@ -43,13 +44,11 @@ However, it'd be dishonest to say that these cabs are in excellent condition:
 
 Also it gets busy in there and is also a popular spot for families (kids get loud).
 
-{{< figure src="cab2.webp" alt="Arcade Cabinets" width="500" >}}
+<img src="/legacy/cab2.webp" alt="Arcade Cabinets" width="500" />
 
 # Conclusion
 Overall, as a once in a while its great value. You get to try out a ton of games, some of which are even considered rare to come by in Japan. If you also just want to go in and hardcore grind out some CHUNITHM, I can see that as a pretty good option too.
 
 Check out the list of games [here](https://zenius-i-vanisher.com/v5.2/arcade.php?id=9155&section=games#games)
 
-{{< figure src="danevo.webp" alt="Arcade Cabinets" width="500" >}}
-
-{{< hashtag "arcade" >}}
+![Arcade Cabinets](/legacy/danevo.webp)
